@@ -1,0 +1,562 @@
+
+/* INDEX  */
+.body-index {
+    background-color:black;
+}
+.div-img {
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin-top: 170px;
+
+    background-image: url(../img/logo-tesla.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+      // animaciones
+      animation-name: logo;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in;
+      animation-duration: 3s;
+      animation-delay: 0s;
+
+}
+
+@keyframes logo {
+    0% {
+        animation-delay: 5s;
+        transform: rotate(0);
+    }
+    100% {
+        animation-delay: 5s;
+        transform: rotate(360deg);
+    }
+}
+
+.main-index {
+    display: block;
+    margin-left: 560px;
+    margin-right:300px ;
+
+     
+
+}
+
+.h1-index {
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-family:  'Nabla', cursiva;
+
+}
+
+.main-section-parrafo {
+    display: inline-block;
+    font-size: 30px;
+    overflow: hidden;
+}
+
+a:hover {
+    background: #a35959;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+a:active {
+    background: #609e74;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a:link {
+    color:green;
+}
+
+a:visited {
+        color: white;
+ }
+
+
+ 
+@keyframes logo {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+// sobre mi
+
+body {
+    background-color: black;
+}
+
+.main-p-sobre {
+    color: white;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	/* box modeling */
+	padding: 50px 30px;
+	margin-top: 100px;
+}
+.main-sobre {
+    color: green;
+    
+}
+
+.main-sobremi {
+    color: green;
+    text-align: center;
+    margin-top: 90px;
+}
+
+// PORTAFOLIO
+
+.main-div-portaf {
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.body-div-img-1 {
+    width: 500px;
+    height: 300px;
+}
+
+.body-div-img-2 {
+    width: 500px;
+    height: 300px;
+}
+
+.body-div-portafolio {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+// habilidades
+
+.body-main-habilidades {
+    color: green;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.body-main-1{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.body-main-2{
+    width: 400px;
+    height: 300px;
+
+}
+
+.body-main-3{
+    width: 400px;
+    height: 300px;
+
+}
+
+.div-img-mate{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.div-img-fisi{
+    width: 400px;
+    height: 300px;
+
+}
+
+.div-img-filos{
+    width: 400px;
+    height: 300px;
+
+}
+
+p {
+    color: white;
+}
+
+// contacto
+
+.div-textarea {
+    border: dashed 2px green;
+    display: inline-block;
+    background-color: white;
+    margin-bottom: 40px;
+    height: 100px;
+    width: 400px;
+}
+
+.input-boton {
+    color: black;
+    background-color: green;
+    width: 400px;
+}
+
+.div-label-nombre {
+    color: #609e74;
+    font-size: 30px;
+}
+.div-label-mail {
+    color: #609e74;
+    font-size: 30px;
+}
+
+.main-parraf {
+    color: #609e74;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifz;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.main-div-c1 {
+    display: flex;
+    justify-content: center;
+}
+
+.main-div-c2 {
+    display: flex;
+    justify-content: center;
+}
+
+.main-div-c3 {
+    display: flex;
+    justify-content: center;
+}
+
+.main-div-boton {
+    display: flex;
+    justify-content: center;
+}
+
+.header-titulo {
+    color: green;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.header-p {
+    color: green;
+}
+
+.h1-footer {
+    margin-left: 100px;
+    color: green;
+}
+
+.footer-a-img{
+    width: 50px;
+    height: 50px;
+}
+
+.logo-footer {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+@media  screen and (max-width:760px) {
+//    media querie de index
+/* INDEX  */
+.body-index {
+    background-color:black;
+}
+.div-img {
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin-top: 170px;
+
+    background-image: url(../img/logo-tesla.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+      // animaciones
+      animation-name: logo;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in;
+      animation-duration: 3s;
+      animation-delay: 0s;
+
+}
+
+@keyframes logo {
+    0% {
+        animation-delay: 5s;
+        transform: rotate(0);
+    }
+    100% {
+        animation-delay: 5s;
+        transform: rotate(360deg);
+    }
+}
+
+.main-index {
+    display: block;
+    margin-left: 560px;
+    margin-right:300px ;
+
+     
+
+}
+
+.h1-index {
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-family:  'Nabla', cursiva;
+
+}
+
+.main-section-parrafo {
+    display: inline-block;
+    font-size: 30px;
+    overflow: hidden;
+}
+
+a:hover {
+    background: #a35959;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+a:active {
+    background: #609e74;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a:link {
+    color:green;
+}
+
+a:visited {
+        color: white;
+ }
+
+
+ 
+@keyframes logo {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+// MEDIA QUERIE SOBRE MI
+// sobre mi
+
+body {
+    background-color: black;
+}
+
+.main-p-sobre {
+    color: white;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	/* box modeling */
+	padding: 50px 30px;
+	margin-top: 100px;
+}
+.main-sobre {
+    color: green;
+    
+}
+
+.main-sobremi {
+    color: green;
+    text-align: center;
+    margin-top: 90px;
+}
+
+// MEDIA QUERIE PORTAFOLIO
+// PORTAFOLIO
+
+.main-div-portaf {
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.body-div-img-1 {
+    width: 500px;
+    height: 300px;
+}
+
+.body-div-img-2 {
+    width: 500px;
+    height: 300px;
+}
+
+.body-div-portafolio {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+// MEDIA QUERIE HABILIDADES
+// habilidades
+
+.body-main-habilidades {
+    color: green;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.body-main-1{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.body-main-2{
+    width: 400px;
+    height: 300px;
+
+}
+
+.body-main-3{
+    width: 400px;
+    height: 300px;
+
+}
+
+.div-img-mate{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.div-img-fisi{
+    width: 400px;
+    height: 300px;
+
+}
+
+.div-img-filos{
+    width: 400px;
+    height: 300px;
+
+}
+
+p {
+    color: white;
+}
+
+// MEDIA QUERIE CONTACTO
+// contacto
+
+.div-textarea {
+    border: dashed 2px green;
+    display: inline-block;
+    background-color: white;
+    margin-bottom: 40px;
+    height: 100px;
+    width: 400px;
+}
+
+.input-boton {
+    color: black;
+    background-color: green;
+    width: 400px;
+}
+
+.div-label-nombre {
+    color: #609e74;
+    font-size: 30px;
+}
+.div-label-mail {
+    color: #609e74;
+    font-size: 30px;
+}
+
+.main-parraf {
+    color: #609e74;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifz;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.main-div-c1 {
+    display: flex;
+    justify-content: center;
+}
+
+.main-div-c2 {
+    display: flex;
+    justify-content: center;
+}
+
+.main-div-c3 {
+    display: flex;
+    justify-content: center;
+}
+
+.main-div-boton {
+    display: flex;
+    justify-content: center;
+}
+
+.header-titulo {
+    color: green;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.header-p {
+    color: green;
+}
+
+.h1-footer {
+    margin-left: 100px;
+    color: green;
+}
+
+.footer-a-img{
+    width: 50px;
+    height: 50px;
+}
+
+.logo-footer {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+}
